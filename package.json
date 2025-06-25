@@ -1,9 +1,10 @@
 {
   "name": "video-streaming",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "video",
@@ -13,5 +14,9 @@
   ],
   "author": "nitesh gairola",
   "license": "ISC",
-  "description": "vidoe streaming application"
+  "description": "vidoe streaming application",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.0"
+  }
 }
